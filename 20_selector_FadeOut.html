@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("a[title$=t]").fadeOut(2000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <button>CLick Me</button>
+    <a href="#" title="home">Home</a>
+    <a href="#" title="About">About</a>
+    <a href="#" title="contact">Contact</a>
+    <a href="#" title="service">Services</a>
+</body>
+</html>

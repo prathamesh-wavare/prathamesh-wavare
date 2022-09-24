@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+   
+</head>
+<body>
+    <button>Start Animation</button>
+    <br><br>
+    <div style="background: #FF0000;height: 100px;width: 100px;position: relative;">
+
+    </div>
+   
+
+   <script src="jquery.js"></script>
+   <script>
+    $(document).ready(function(){
+        $("div").animate({height:300},5000);
+        $("div").animate({width:300},"slow");
+        $("div").animate({width:100},40000);
+
+   
+    });
+
+   </script>
+</body>
+</html>

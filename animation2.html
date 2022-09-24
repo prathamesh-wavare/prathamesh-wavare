@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+   
+</head>
+<body>
+    <button>Strart Animation</button><br><br>
+    <div style="background:#FF0000;height: 100px;width: 100px;position: relative;">
+    </div>
+   
+
+   <script src="jquery.js"></script>
+   <script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("div").animate({
+                left:'150',
+                opacity:'0.6',
+                height:'150px',
+                width:'150px',
+
+                
+            });
+        });
+   
+    });
+
+   </script>
+</body>
+</html>
